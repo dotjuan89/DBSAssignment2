@@ -10,8 +10,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 Golang v1.12.9
 Gin-Gonic/Gin
-
 ReactJS 16.9.0
+
+Do note that you will need Google API Key and Yelp API Key in order to utilize the services.
+You can enter these API Keys in React App (client/src/component/searchComponent.jsx)
+Don't forget to Enable Google Map API from your Google Account
 
 ### Installation
 
@@ -29,18 +32,16 @@ Download and Install NodeJS
 
 # Testing and Debugging
 
-To run React App in Development
+To run React App in Development from root folder
 
 ```
-// From root folder
 cd client
 npm start
 ```
 
-To build React App for Production
+To build React App for Production from root folder
 
 ```
-// From root folder
 cd client
 npm run build
 ```

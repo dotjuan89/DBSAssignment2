@@ -9,9 +9,8 @@ class SearchComponent extends React.Component {
 		super(props);
 		// Initial state of the component
 		this.state = {
-			YELP_API_KEY:
-				"exSErej__H2MAjCHY-AJnLalkdVbjP80E256JvI0cf2cLGeG1GUcOqyLqGQAA7o6a7ZnrdYl_an9xMfrcfu6q_0N9x-d2bPiQFD56FQF84kwRYQ47QImG_NKnTJ5XXYx",
-			GOOGLE_API_KEY: "AIzaSyArGf72P9aHqdnE343sFthXg6N3zzwr8qE",
+			YELP_API_KEY: "", // YELP API KEY
+			GOOGLE_API_KEY: "", // GOOGLE API KEY
 			mapShow: false,
 			mapLatitude: 0,
 			mapLongitude: 0,
