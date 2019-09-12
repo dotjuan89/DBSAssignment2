@@ -6,6 +6,7 @@ import NavComponent from "./component/navComponent";
 class App extends Component {
 	render() {
 		return (
+			// App Component
 			<div className="App">
 				<NavComponent />
 				<br />

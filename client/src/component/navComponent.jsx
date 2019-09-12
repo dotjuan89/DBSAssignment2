@@ -1,5 +1,6 @@
 import React from "react";
 
+// Navigation Component
 class NavComponent extends React.Component {
 	constructor(props) {
 		super(props);
@@ -7,6 +8,7 @@ class NavComponent extends React.Component {
 	}
 	render() {
 		return (
+			// Utilizing Bootstrap Navigation
 			<div className="NavComponent">
 				<nav className="navbar navbar-light bg-light">
 					<a className="navbar-brand" href="/#">
